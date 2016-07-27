@@ -4,6 +4,7 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
+- fixed some sentences [laulaz]
 - added a buildout [laulaz]
 
 1.0.2 (2014-07-17)

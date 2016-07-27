@@ -29,7 +29,7 @@ class INavigationToggleSettings(Interface):
     delay = schema.Int(
             title=_(u"Animation delay"),
             description=_('help_animation_delay',
-                          default=u'If provided, enable an animation when navigations are expanded/collapsed\n.'
+                          default=u'If provided, enable an animation when navigations are expanded/collapsed.\n'
                                   u'Animation will require the given number of missilecons to be completed.\n'
                                   u'Leave 0 to disable animation.'),
             required=True,
@@ -71,7 +71,7 @@ class INavigationToggleSettings(Interface):
             title=_(u"HTML list element"),
             description=_('help_list_item',
                           default=u'The item of a single list entry to looks for inside navigations.\n'
-                                  u'This is the element that the toggle feature will generate when expandig.'),
+                                  u'This is the element that the toggle feature will generate when expanding.'),
             required=True,
             default='li',
         )
